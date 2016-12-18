@@ -1,0 +1,10 @@
+//codeforces div2:A soldier and bananas
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+ios_base::sync_with_stdio(false);
+int n,k,ww;
+cin>>k>>n>>ww;
+cout<<max(0,(k*(ww*(ww+1))/2)-n);
+}
